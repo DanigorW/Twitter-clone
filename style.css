@@ -52,6 +52,7 @@ body {
 .left-content i {
   margin: 0 1rem;
   font-size: 2rem;
+  color: #fff;
 }
 
 .left-content h3 {
@@ -886,19 +887,13 @@ button {
 
 
 
-.i {
-  color: #fff;
-}
-
-.a {
- color: #fff;
-}
 
 
 
-.dark-2{
-  background: #10171e;
-}
+
+
+
+
 
 
 
@@ -906,3 +901,14 @@ button {
   color: #444;
 }
 
+@media (max-width: 820px){
+ .log-in-content {
+   width: 300px;
+   justify-content: center;
+ }
+
+ .log-in-nav {
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+}
